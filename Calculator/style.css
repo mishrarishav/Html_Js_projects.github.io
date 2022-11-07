@@ -1,0 +1,123 @@
+body {
+  background-color: #eae3d7;
+}
+#container {
+  width: 100%;
+}
+#display {
+  background-color: #9F9F9F;
+  height: 40px;
+  padding: 0px 7px 5px 8px;
+  width: 193px;
+  border-style: solid;
+  border-color: #333;
+  border-width: 3px 0px 0px 3px;
+  border-radius: 3px 3px 0px 0px;
+  box-shadow: 2px 2px #777;
+}
+#display2 {
+  background-color: #9F9F9F;
+  height: 40px;
+  padding: 0px 7px 5px 8px;
+  margin: 0px 0px 12px 0px;
+  max-width: 193px;
+  word-wrap: break-word;
+  border-style: solid;
+  border-color: #333;
+  border-width: 0px 0px 0px 3px;
+  border-radius: 0px 0px 3px 3px;
+  box-shadow: 2px 2px #777;
+}
+#mini {
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+  color: #555555;
+  letter-spacing: 1pt;
+  word-spacing: 10pt;
+  font-size: 30px;
+  /*font-size: 4.5vw;*/
+  text-align: right;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 0;
+}
+#field {
+  width: 100%;
+  max-height: 40px;
+  font-weight: bold;
+  color: #555555;
+  letter-spacing: 1pt;
+  word-spacing: 10pt;
+  font-size: 12px;
+  /*font-size: 1.8vw;*/
+  font-family: arial, helvetica, sans-serif;
+  line-height: 1;
+  display: inline-block;
+  text-align: right;
+}
+#calc {
+  /*background-color: #a6b2b1;*/
+  background-color: #3b473b;
+  width: 216px;
+  padding: 24px 16px 20px 20px;
+  margin: 40px auto 10px auto;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #999;
+  border-width: 2px 0px 0px 2px;
+  box-shadow: 2px 2px #333, 6px 6px 5px #47443f;
+}
+#info {
+
+  font-weight: bold;
+  color: #555555;
+  word-spacing: 1pt;
+
+  font-family: arial, helvetica, sans-serif;
+  
+  text-align: center;
+}
+.valv {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 3px 4px 1px;
+    cursor: pointer;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #777;
+    border-width: 1px 0px 0px 1px;
+    box-shadow: 2px 2px #333;
+}
+.redbtn {
+    background-color: #594526;
+    border-style: solid;
+    border-color: #726f6a;
+    border-width: 1px 0px 0px 1px;
+}
+.greenbtn {
+    background-color: #666a66;
+    border-style: solid;
+    border-color: #696d69;
+    border-width: 1px 97px 0px 1px;
+}
+.bluebtn {
+    background-color: #594526;
+    border-style: solid;
+    border-color: #726f6a;
+    border-width: 1px 0px 0px 1px;
+}
+.darkgreybtn {
+    background-color: #30302f;
+    border-style: solid;
+    border-color: #565654;
+    border-width: 1px 0px 0px 1px;
+}
+.digit {
+  width: 65px;
+}
