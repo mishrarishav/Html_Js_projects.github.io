@@ -1,65 +1,58 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="welcome/styles.css">
-	<title>Login page</title>
-</head>
-<script type="text/javascript">
-	var input = document.getElementById("password");
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
 
-// Execute a function when the user presses a key on the keyboard
-input.addEventListener("keypress", function(event) {
-  // If the user presses the "Enter" key on the keyboard
-  if (event.key === "Enter") {
-    // Cancel the default action, if needed
-    event.preventDefault();
-    // Trigger the button element with a click
-    document.getElementById("button").click();
-  }
-});
-	function display(form) {
-		if (form.username.value == "root") {
-			if (form.password.value == "pass") {
-				location = "welcome/page2.html"
-			} else {
-				alert("Invalid Password")
-			}
-		} else {
-			alert("Invalid Username")
-		}
-	}
-</script>
+    <link rel="stylesheet" href="welcome/styles.css">
+</head>
 
 <body>
-	<div class="container">
-		<div class="screen">
-			<div class="screen__content">
-				<form class="login">
-					<h1>Login Page</h1>
-					<div class="login__field">
-						<i class="login__icon fas fa-user"></i>
-						
-						<input type="text" class="login__input" placeholder="User name" name="username"/>
-					</div>
-					<div class="login__field">
-						<i class="login__icon fas fa-lock"></i>
+    <div class="container">
+        <form>
+            <h1>Welcome to My Project</h1>
+            <h2>Select One to See the Project</h2>
 
-						<input id="password" type="password" name="password" class="login__input" placeholder="Password" />
-					</div>
-					<br>
-					<input class="button__icon fas fa-chevron-right" id="button" type="button" value="Login" onClick="display(this.form)"/>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a class="project-link" href="..\Card-Flip\JavaScript Array Card Flip.html">JavaScript Flip</a>
+                </div>
 
-				</form>
+                <div class="grid-item">
+                    <a class="project-link" href="..\Arrays\index-array.html">Check Number</a>
+                </div>
 
-			</div>
-			<div class="screen__background">
-				<span class="screen__background__shape screen__background__shape4"></span>
-				<span class="screen__background__shape screen__background__shape3"></span>
-				<span class="screen__background__shape screen__background__shape2"></span>
-				<span class="screen__background__shape screen__background__shape1"></span>
-			</div>
-		</div>
-	</div>
+                <div class="grid-item">
+                    <a class="project-link" href="..\Calculator\index.html">Calculator</a>
+                </div>  
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\Flex-Panel-Gallery\index.html">Flex Panel</a>
+                </div>
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\Rock-Paper-Scissors\taskagıtmakas.html">Rock Paper Scissors</a>
+                </div> 
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\JS-and-CSS-Clock\index.html">Clock</a>
+                </div>
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\SnakeGame\index.html">Snake Game</a>
+                </div>
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\ticTakToe\index.html">Tic Tac Toe</a>
+                </div>
+
+                <div class="grid-item">
+                    <a class="project-link" href="..\frontpage\index.html">My Website</a>
+                </div>  
+            </div>
+        </form> 
+    </div>
 </body>
-
 </html>
